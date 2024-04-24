@@ -6,7 +6,7 @@ public class CheckDigit
      int numDig = getNumberOfDigits(num);
      int sum=0;
      for (int i =1; i<=numDig; i++){
-       sum+= getDigit(num,i)*(7-i);
+       sum+= getDigit(num,i)*(8-i);
      }
      return sum%10;
    }
